@@ -46,26 +46,12 @@ header li {
 }
 
 header h1 {
-    /* width: 65%; */
     width: 100%;
 }
 
 header h1, nav {
     display: inline-block;
 }
-
-/* main {
-    width: 68%;
-    display: inline-block;
-    padding: 10px;
-}
-
-aside {
-    width: 27%;
-    display: inline-block;
-    vertical-align: top;
-    padding: 10px;
-} */
 
 .product {
     border: 1px solid grey;
@@ -155,5 +141,46 @@ tr:hover {
     .product {
         display: inline-block;
         width: 46%;
+    }
+}
+
+@media (min-width: 1000px) {
+    body {
+        text-align: left;
+    }
+
+    header h1 {
+        width: 60%;
+    }
+
+    main {
+        width: 68%;
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    aside {
+        width: 27%;
+        display: inline-block;
+        vertical-align: top;
+        padding: 10px;
+    }
+
+    input[type="search"] {
+        width: 40%;
+   }
+}
+
+@media (min-width: 1200px) {
+    body {
+        max-width: 80vw;
+    }
+
+    .product {
+        width: 30%;
+    }
+
+    input[type="search"] {
+         width: 20%;
     }
 }
