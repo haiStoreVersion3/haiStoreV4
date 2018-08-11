@@ -48,13 +48,16 @@ header h1, nav {
 }
 
 main {
-    width: 680px;
+    /* target / context = result 
+    680 / 1000 = .68 */
+
+    width: 68%;
     display: inline-block;
     padding: 10px;
 }
 
 aside {
-    width: 270px;
+    width: 27%;
     display: inline-block;
     vertical-align: top;
     padding: 10px;
@@ -62,7 +65,8 @@ aside {
 
 .product {
     border: 1px solid grey;
-    width: 200px;
+    box-sizing: border-box;
+    width: 30%;
     margin: 5px;
     padding: 5px;
     display: inline-block;
