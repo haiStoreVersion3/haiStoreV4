@@ -172,6 +172,10 @@ tr:hover {
 }
 
 @media (min-width: 1200px) {
+    header h1 {
+        width: 55%;
+    }
+
     body {
         max-width: 80vw;
     }
