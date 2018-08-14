@@ -5,6 +5,8 @@ html {
 body {
     font-family: 'Barlow';
     background: white;
+    font-size: 16px;
+    font-weight: bold;
     /* max-width: 80%; */
     margin: 0 auto;
     color: rgb(49, 46, 46);
