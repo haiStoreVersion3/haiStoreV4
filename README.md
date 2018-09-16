@@ -1,6 +1,6 @@
 # The Hai Store
 
-> This website is a mock eCommerce store for my CS:GO skins used to specifically showcase a dynamic resizable webpage created with intricate HTML/ CSS.
+> This web app is a mock eCommerce store for selling CS:GO skins.  This app was created to specifically showcase a dynamic resizable webpage for desktop or mobile viewing.
 
 # Images
 
